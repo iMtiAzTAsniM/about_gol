@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    font-family: 'Source Code Pro', monospace;
+}
+.login-container{
+    height: 800px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+}
+.login-form input, button{
+    font-size: 1.1em;
+    margin-top: 3px;
+    padding-left: 10px;
+}
+.login-form button{
+    background-color: blue;
+    color: whitesmoke;
+    font-weight: 500;
+}
+button:hover{
+    cursor: pointer;
+}
+nav{
+    max-width: 100%;
+    max-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 5px grey;
+}
+nav a{
+    text-decoration: none;
+    color:black;
+    font-size: 1.5em;
+    margin-right: 15px;
+}
+nav a:hover{
+    cursor: grab;
+}
